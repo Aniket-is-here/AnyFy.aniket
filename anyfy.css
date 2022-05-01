@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+
+body{background-color: rgb(154, 181, 231);}
+*{margin: 0px;
+    padding: 0px;}
+nav{font-family: 'ubuntu', sans-serif;}
+#Home{
+    text-decoration: none;
+    color: white;
+}
+#about {
+text-decoration: none;
+color: white;
+}
+.anify{display: flex;
+    align-items: center;
+    color: rgb(17, 158, 24);
+    font-weight: bolder ;
+    font-size: 1.2rem;
+    padding-right: 12px;
+   }
+    .home{padding: 0px 10px;
+    font-size: 16px;}
+    .about{padding: 0px 8px;
+    font-size: 16px;}
+
+nav ul {display: flex;
+    list-style-type: none;
+height: 65px;
+background-color: black;
+;color: white;
+align-items: center;
+font-weight: bolder ;
+font-size: 1.2rem}
+
+
+.logo img{
+    width: 56px; 
+    padding-right: 5px; 
+}
+.container{background: white;
+min-height: 70vh;
+color: white;
+font-family: 'varela round', sans-serif;
+display: flex;
+margin: 23px auto;
+width: 90%;
+border-radius: 30px;
+padding: 18px;
+background-image: url(1637494029220.jpg) ;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+
+
+
+.bottom{position: sticky;
+height: 100px;
+background-color: black;
+color: white;
+bottom: 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+#myProgressBar{
+    width: 90vw;
+}
+.icons{
+    padding: 12px 20px;
+}
+.icons i{padding-right: 18px;
+padding-left: 6px;
+cursor: pointer;}
+.SongItem{height: 50px;
+    display: flex;
+    background-color: white;
+  
+    margin: 12px 12px;
+color: black;
+justify-content: space-between;
+align-items: center;
+border-radius: 34px;
+width: 386px;
+
+
+
+}
+.SongItem img{width: 43px;
+    margin: 0px 23px;
+    border-radius: 34px;
+}
+.timestamp{
+    margin-right: 17px;
+    
+}
+
+.timestamp i {cursor: pointer;}
+.songinfo{
+    position:absolute;
+    left: 4vw;
+}
+.songinfo {
+    opacity:0;
+    transition:opacity 0.6s ease-in;
+    font-family: 'varela round', sans-serif;
+}
+.bottom input{cursor: pointer;}

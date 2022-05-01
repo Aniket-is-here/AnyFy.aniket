@@ -1,0 +1,32 @@
+.index-section--flush:first-child {
+  margin-top: -30px;
+}
+.index-section:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+.index-section {
+  padding-top: section-spacing;
+  padding-bottom: 50px;
+}
+.index-section {
+  padding-top: section-spacing-small;
+  padding-bottom: 30px;
+}
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+body,
+input,
+textarea,
+button,
+select {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #3d4246;
+  line-height: 1.4;
+}
